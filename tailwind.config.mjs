@@ -12,12 +12,12 @@ export default {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        'custom-gradient': 'radial-gradient(circle at center top, rgba(37,49,168,1) 10%, rgba(3,4,14,1) 70%)',
-        'footer-gradient': 'radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(127,47,207,1) 35%, rgba(2,0,36,1) 100%);'
+        "custom-gradient":
+          "radial-gradient(circle at center top, rgba(37,49,168,1) 10%, rgba(3,4,14,1) 70%)",
+        "border-gradient":
+          "linear-gradient(142.48deg, #2340d5 2.46%, #2340d5 2.47%, #c82e53 52.9%, #7f2fcf 102.3%)",
       },
     },
   },
-  plugins: [
-    require('daisyui'),
-  ],
+  plugins: [require("daisyui")],
 };
